@@ -1,5 +1,5 @@
 # Color Framework
-> Short blurb about what your product does.
+> Find good colors.
 
 [![Swift Version][swift-image]][swift-url]
 [![Build Status][travis-image]][travis-url]
