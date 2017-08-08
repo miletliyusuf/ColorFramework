@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 	        spec.platform = :ios, "9.1"
 		  spec.requires_arc = true
-		    spec.source = { git: "https://github.com/miletliyusuf/ColorFramework.git", tag: "v#{spec.version}", submodules: true }
+		    spec.source = { git: "https://github.com/miletliyusuf/ColorFramework.git", tag: "#{spec.version}", submodules: true }
 		      spec.source_files = "ColorFramework/**/*.{h,swift}"
 
 			end
