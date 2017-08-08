@@ -31,6 +31,7 @@
 		88ABDA061F389C8A00679CBC /* ColorFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFrameworkTests.swift; sourceTree = "<group>"; };
 		88ABDA081F389C8A00679CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88ABDA121F389C9B00679CBC /* GeneralColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralColors.swift; sourceTree = "<group>"; };
+		88ABDA141F39DFEA00679CBC /* ColorFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ColorFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 		88ABD9FA1F389C8A00679CBC /* ColorFramework */ = {
 			isa = PBXGroup;
 			children = (
+				88ABDA141F39DFEA00679CBC /* ColorFramework.framework */,
 				88ABD9FB1F389C8A00679CBC /* ColorFramework.h */,
 				88ABD9FC1F389C8A00679CBC /* Info.plist */,
 				88ABDA121F389C9B00679CBC /* GeneralColors.swift */,
@@ -424,6 +426,7 @@
 				88ABDA0E1F389C8A00679CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88ABDA0F1F389C8A00679CBC /* Build configuration list for PBXNativeTarget "ColorFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +435,7 @@
 				88ABDA111F389C8A00679CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
